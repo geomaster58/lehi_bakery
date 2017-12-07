@@ -1,14 +1,11 @@
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+      <a id="logo-container" href="#" class="brand-logo"></a>
+      <ul class="left">
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "About", root_path %></li>
+        <li><%= link_to "Products", root_path %></li>
       </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
@@ -142,10 +139,8 @@
   </footer>
 
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+  
+  
 
  
 
